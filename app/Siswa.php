@@ -2,7 +2,8 @@
 
 namespace App;
 
-use Auth;
+use Illuminate\Support\Facades\Auth;
+use Barryvdh\DomPDF\PDF;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
