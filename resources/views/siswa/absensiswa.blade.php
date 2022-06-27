@@ -15,7 +15,7 @@ $no = 1;
                     <tr>
                         <th>No</th>
                         <th>Nama Siswa</th>
-                        <th>Ket.</th>
+                        <th>Ket</th>
                         <th width="80px">Jam Absen</th>
                     </tr>
                 </thead>
@@ -24,7 +24,7 @@ $no = 1;
                     <tr>
                         <td>{{ $no++ }}</td>
                         <td>{{ $data->siswa->nama_siswa }}</td>
-                        <td>{{ $data->kehadiran->ket }}</td>
+                        <td>{{ $data->kehadiransiswa->ket }}</td>
                         <td>{{ $data->created_at->format('H:i:s') }}</td>
                     </tr>
                     @endforeach

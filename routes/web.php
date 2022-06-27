@@ -48,7 +48,7 @@ Route::middleware(['auth'])->group(function () {
   Route::post('/pengaturan/ubah-password', 'UserController@ubah_password')->name('pengaturan.ubah-password');
 
   Route::middleware(['siswa'])->group(function () {
-    Route::get('/absenSiswa/harian', 'SiswaController@absenSiswa')->name('absenSiswa.harian');
+    Route::get('/absensiswa/harian', 'SiswaController@absensiswa')->name('absensiswa.harian');
     Route::post('/siswa/simpan', 'SiswaController@simpan')->name('siswa.simpan');
     Route::get('/jadwal/siswa', 'JadwalController@siswa')->name('jadwal.siswa');
     Route::get('/ulangan/siswa', 'UlanganController@siswa')->name('ulangan.siswa');

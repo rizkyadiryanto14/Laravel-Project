@@ -247,7 +247,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ route('absenSiswa.harian') }}" class="nav-link" id="AbsenSiswaHarian">
+                    <a href="{{ route('absensiswa.harian') }}" class="nav-link" id="Absensiswaharian">
                         <i class="fas fa-calendar-check nav-icon"></i>
                         <p>Absen</p>
                     </a>

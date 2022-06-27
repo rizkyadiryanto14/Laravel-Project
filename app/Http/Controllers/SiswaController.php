@@ -294,9 +294,9 @@ class SiswaController extends Controller
         }
     }
 
-    public function absenSiswa()
+    public function absensiswa()
     {
-        $absensiswa = AbsenSiswa::where('tanggal', date('Y-m-d'))->get();
+        $absensiswa = Absensiswa::where('tanggal', date('Y-m-d'))->get();
         $kehadiransiswa = Kehadiran::limit(4)->get();
         return view('siswa.absensiswa', compact('absensiswa', 'kehadiransiswa'));
     }
