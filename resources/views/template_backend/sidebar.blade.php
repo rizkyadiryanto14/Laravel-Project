@@ -133,7 +133,7 @@
                 @else 
                 @endif
                 <li class="nav-item">
-                    <a href="http://localhost:5000/" class="nav-link" id="urk">
+                    <a href="http://localhost:9000/" class="nav-link" id="urk">
                         <i class="fa fa-graduation-cap"></i>
                         <p>Penerimaan Siswa Baru</p>
                     </a>
