@@ -130,8 +130,14 @@
                         </li>
                     </ul>
                 </li>
-                @else
+                @else 
                 @endif
+                <li class="nav-item">
+                    <a href="http://localhost:5000/" class="nav-link" id="urk">
+                        <i class="fa fa-graduation-cap"></i>
+                        <p>Penerimaan Siswa Baru</p>
+                    </a>
+                </li>
                 <li class="nav-item">
                     <a href="{{ route('guru.absensi') }}" class="nav-link" id="AbsensiGuru">
                         <i class="fas fa-calendar-check nav-icon"></i>
