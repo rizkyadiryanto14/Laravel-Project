@@ -107,7 +107,7 @@ class UserController extends Controller
     public function show($id)
     {
         $id = Crypt::decrypt($id);
-        if ($id == "Admin" && Auth::user()->role == "Operator") {
+        if ($id == "Admin" && Auth::user()->role == "Kepsek") {
             return redirect()->back()->with('warning', 'Maaf halaman ini hanya bisa di akses oleh Admin!');
         } else {
             $user = User::where('role', $id)->get();
