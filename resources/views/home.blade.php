@@ -63,7 +63,7 @@
                                 </tr>
                                 @elseif ($hari == '0' || $hari == '6')
                                 <tr>
-                                  <td colspan='5' style='background:#fff;text-align:center;font-weight:bold;font-size:18px;'>Sekalah Libur!</td>
+                                  <td colspan='5' style='background:#fff;text-align:center;font-weight:bold;font-size:18px;'>Sekolah Libur!</td>
                                 </tr>
                                 @elseif($hari == '1' && $jam >= '07:00' && $jam <= '07:30' ) <tr>
                                   <td colspan='5' style='background:#fff;text-align:center;font-weight:bold;font-size:18px;'>Waktunya Upacara Bendera!</td>
