@@ -69,9 +69,9 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('user.index') }}" class="nav-link" id="DataUser">
-                                <i class="fas fa-user-plus nav-icon"></i>
-                                <p>Data User</p>
+                            <a href="{{ route('guru.absensi') }}" class="nav-link" id="AbsensiGuru">
+                                <i class="fas fa-calendar-check nav-icon"></i>
+                                <p>Data Absensi Guru</p>
                             </a>
                         </li>
                     </ul>
