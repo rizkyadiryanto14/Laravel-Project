@@ -1,82 +1,75 @@
-<h1 align="center">Selamat datang di Sistem Informasi Akademik Sekolah! 👋</h1>
+## Tampilan Mobile
 
-## Apa itu Sistem Informasi Akademik Sekolah?
+<img src="https://github.com/rizkyadiryanto14/Laravel_Project/blob/main/m1.png" width="200"> <img src="https://github.com/rizkyadiryanto14/Laravel_Project/blob/main/m2.png" width="200"> <img src="https://github.com/rizkyadiryanto14/Laravel_Project/blob/main/m3.png" width="200">
 
-Web Sistem Informasi Akademik Sekolah yang dibuat oleh <a href="https://github.com/adhiariyadi"> Adhi Ariyadi </a>. **Sistem Informasi Akademik Sekolah adalah Website untuk para siswa dapat melihat jadwal pelajaran, dan nilai rapot dan para guru dapat menambahkan nilai siswa dengan muda melalui website.**
+## Tampilan Desktop
 
-## Fitur apa saja yang tersedia di Sistem Informasi Akademik Sekolah?
+<img src="https://github.com/rizkyadiryanto14/Laravel_Project/blob/main/d1.png" width="400"> <img src="https://github.com/rizkyadiryanto14/Laravel_Project/blob/main/d2.png" width="400"> <img src="https://github.com/rizkyadiryanto14/Laravel_Project/blob/main/d3.png" width="400"> <img src="https://github.com/rizkyadiryanto14/Laravel_Project/blob/main/d4.png" width="400">
 
-- Autentikasi Admin
-- User & CRUD
-- Jadwal & CRUD
-- Kelas & CRUD
-- Mata Pelajaran & CRUD
-- Guru & CRUD
-- Siswa & CRUD
-- Rapot
-- Dan lain-lain
+## Persiapan
 
-## Release Date
-
-**Release date : 28 Apr 2020**
-
-> Sistem Informasi Akademik Sekolah merupakan project open source yang dibuat oleh Adhi Ariyadi. Kalian dapat download/fork/clone. Cukup beri stars di project ini agar memberiku semangat. Terima kasih!
-
----
-
-## Default Account for testing
-
-**Admin Default Account**
-
-- email: admin@gmail.com
-- Password: 12345678
-
----
+1. **Install composer terbaru melalui link berikut ini <a href="https://getcomposer.org/download/">composer</a>**
+2. **Install xampp versi terbaru melalui link beriku ini <a href="https://www.apachefriends.org/download.html">xampp</a>**
+3. **Yang paling penting siapkan snack sama secangkir teh kak, karena menunggu itu menyebalkan wkwkwk**
 
 ## Install
 
 1. **Clone Repository**
 
 ```bash
-git clone https://github.com/adhiariyadi/Sistem-Informasi-Akademik-Sekolah-Laravel.git
-cd Sistem-Informasi-Akademik-Sekolah-Laravel
+git clone https://github.com/rizkyadiryanto14/Laravel_Project.git
+cd folder
 composer install
-cp .env.example .env
+cp .env.example =>  .env
 ```
 
 2. **Buka `.env` lalu ubah baris berikut sesuai dengan databasemu yang ingin dipakai**
 
 ```bash
 DB_PORT=3306
-DB_DATABASE=laravel
+DB_DATABASE=siakad
 DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-3. **Instalasi website**
+3. **Export Database siakad_laravel manual**
+
+```
+Import siakad_laravel.sql kedalam xampp
+bisa juga menggunakan command dibawah ini jika ingin menggunakan database kosong
+```
+
+4. **Instalasi website**
 
 ```bash
 php artisan key:generate
 php artisan migrate --seed
 ```
 
-4. **Jalankan website**
+5. **Jalankan website**
 
 ```bash
 php artisan serve
 ```
 
-## Author
+**Admin Default Account**
 
-- Facebook : <a href="https://web.facebook.com/adhiariyadi.me/"> Adhi Ariyadi</a>
-- LinkedIn : <a href="https://www.linkedin.com/in/adhiariyadi/"> Adhi Ariyadi</a>
+- email: admin@gmail.com
+- Password: 12345678
 
-## Contributing
+**Guru Default Account**
 
-Contributions, issues and feature requests di persilahkan.
-Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi. **Berhubung Project ini saya sudah selesaikan sendiri, namun banyak fitur yang kalian dapat tambahkan silahkan berkontribusi yaa!**
+- email: guru@gmail.com
+- password: 12345678
 
-## License
+**Siswa Default Account**
 
-- Copyright © 2020 Adhi Ariyadi.
-- **Sistem Informasi Akademik Sekolah is open-sourced software licensed under the MIT license.**
+- email: siswa@gmail.com
+- password: 12345678
+
+**KepalaSekolah Default Account**
+
+- email : kepsek@gmail.com
+- Password: 12345678
+
+---
